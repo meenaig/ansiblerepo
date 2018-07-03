@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+   - name: print hostname
+     shell: hostname
+     register: output
+   - debug: var=output.stdout
+...

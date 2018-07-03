@@ -2,5 +2,5 @@
 - hosts: localhost
   tasks:
    - name: print hostname
-     shell: hostname
+     shell: echo "hello am meena"
 ...
